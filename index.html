@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TurnOF-TurnON light</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Can you turn the light on ?</h1>
+        <div class="light">
+            <img src="lightoff.png" id="img">
+            <div class="control">
+                <button id="onbtn" onclick="document.getElementById('img').src = 'lighton.png' ">Turn on the light</button>
+                <button id="ofbtn" onclick="document.getElementById('img').src = 'lightoff.png' ">Turn off the light</button>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
